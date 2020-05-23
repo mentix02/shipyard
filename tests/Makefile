@@ -2,7 +2,11 @@ CC = g++
 CFLAGS = -I../include -Wall --std=c++17
 
 all:
-	${CC} ${CFLAGS} test.cpp -o test
+	${CC} ${CFLAGS} tests.cpp -o tests
+
+test:
+	${CC} ${CFLAGS} tests.cpp -o tests
+	./tests
 
 clean:
-	rme test.cpp test_maps.cpp test_numerics.cpp test_vectors.cpp Makefile
+	rme tests.cpp test_maps.cpp test_numerics.cpp test_vectors.cpp Makefile

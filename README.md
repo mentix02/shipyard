@@ -25,7 +25,7 @@ besides assertions for primitive types like `int`s and `float`s.
 
 ## Usage
 
-There's a great tutorial over at Medium walking through most of shipyard's features. [Read it here]().
+There's a great tutorial over at Medium walking through most of shipyard's features. [Read it here](https://medium.com/@mentix02/shipyard-a-c-testing-library-d12314f10a36).
 
 Download the [header file](include/shipyard.hpp) for shipyard and place it inside a `tests` directory of your project.
 

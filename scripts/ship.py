@@ -30,7 +30,7 @@ if __name__ == '__main__':
         '-p', '--pattern', type=str, nargs="?", help='Pattern of tests to include.'
     )
     parser.add_argument(
-        '-o', '--output', nargs='?', default='test.cpp', help='Name of output file.'
+        '-o', '--output', nargs='?', default='tests.cpp', help='Name of output file.'
     )
     parser.add_argument(
         '-d', '--directory', default='.', help='Directory to look for C++ tests in.'

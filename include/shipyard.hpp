@@ -7,6 +7,7 @@
 #include <sstream>
 #include <iostream>
 #include <exception>
+#include <functional>
 #include <unordered_map>
 
 #define TESTFUNC(name) {#name, name}
