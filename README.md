@@ -2,6 +2,8 @@
 <h1>shipyard</h1>
 
 ![GitHub](https://img.shields.io/github/license/mentix02/shipyard)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/mentix02/shipyard/CppMakeAndTest)
+![Language](https://img.shields.io/badge/language-C%2B%2B-blue)
 
 <img src="anchor.jpg" width="50%" height="50%" />
 </div>
